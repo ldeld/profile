@@ -10,19 +10,25 @@
     <div id="sidebar">
       <ul>
         <li>
-          <i class="fa fa-user fa-3x" aria-hidden="true"></i>
+          <a href="/#info">
+            <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+          </a>
         </li>
         <li>
-          <i class="fa fa-music fa-3x" aria-hidden="true"></i>
+          <a href="/#albums">
+          <i class="fa fa-music fa-2x" aria-hidden="true"></i>
+          </a>
         </li>
         <li>
-          <i class="fa fa-info fa-3x" aria-hidden="true"></i>
+          <a href="/#about">
+          <i class="fa fa-info fa-2x" aria-hidden="true"></i>
+          </a>
         </li>
       </ul>
     </div>
     <div id="page-content">
       <div class="container">
-        <div class="card text-center">
+        <div class="card text-center" id="info">
           <img src="images/profile_square.png" class="img_circle border-primary" width="150px">
           <div class="line-height-sm" id="info">
             <h1>Lorenzo Del Castillo</h1>
@@ -52,7 +58,7 @@
               </li>
             </ul>
         </div>
-        <div class="card text-center" id="album-list">
+        <div class="card text-center" id="albums">
           <table>
             <thead>
               <tr>
@@ -90,7 +96,7 @@
             </tbody>
           </table>
         </div>
-        <div class="card text-center line-height-sm">
+        <div class="card text-center line-height-sm" id="about">
           <h3>About this page</h3>
           <p>Page done for the Le Wagon fullstack!</p>
         </div>

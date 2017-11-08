@@ -99,18 +99,22 @@ a {
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 150px;
   left: 0;
   top: 0;
   bottom: 0;
   background-color: #3f3f3f;
 }
 
-#sidebar .fa {
+#sidebar a {
   color: #F0EAD6;
   padding: 30px 0px;
 }
 
+#sidebar a:hover {
+  color: white;
+}
+
 #page-content {
-  margin-left: 300px;
+  margin-left: 150px;
 }
