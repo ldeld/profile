@@ -37,20 +37,20 @@ a {
  }
 
 .container {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 850px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 400px;
+    width: 500px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 650px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 250px;
+    width: 350px;
   }
 }
 
