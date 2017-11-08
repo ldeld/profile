@@ -7,79 +7,94 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/profile_square.png" class="img_circle border-primary" width="150px">
-        <div class="line-height-sm" id="info">
-          <h1>Lorenzo Del Castillo</h1>
-          <h2>Programmer</h2>
-          <p>Le Wagon student!</p>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <i class="fa fa-user fa-3x" aria-hidden="true"></i>
+        </li>
+        <li>
+          <i class="fa fa-music fa-3x" aria-hidden="true"></i>
+        </li>
+        <li>
+          <i class="fa fa-info fa-3x" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card text-center">
+          <img src="images/profile_square.png" class="img_circle border-primary" width="150px">
+          <div class="line-height-sm" id="info">
+            <h1>Lorenzo Del Castillo</h1>
+            <h2>Programmer</h2>
+            <p>Le Wagon student!</p>
+          </div>
+        </div>
+        <div class="card text-center">
+          <ul class="list-inline">
+              <li>
+                <a href="https://www.facebook.com/ldelcastillod" target="_blank">
+                  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                  <br> Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ldeld" target="_blank">
+                  <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                  <br> Github
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/ldelcd" target="_blank">
+                  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                  <br> Instagram
+                </a>
+              </li>
+            </ul>
+        </div>
+        <div class="card text-center" id="album-list">
+          <table>
+            <thead>
+              <tr>
+                <h2 class="card-title">Favorite albums</h1>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/In_Rainbows_Official_Cover.jpg" class="img-cover" width="250px">
+                </td>
+                <td>
+                  <h2> In Rainbows</h2>
+                  <h3> Radiohead</h3>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="http://lounge.obviousmag.org/musinquieta/Transa.jpg" class="img-cover" width="250px">
+                </td>
+                <td>
+                  <h2> Transa</h2>
+                  <h3> Caetano Veloso</h3>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/51Rkk2zTsBL._SS500.jpg" class="img-cover" width="250px">
+                </td>
+                <td>
+                  <h2> Worst Summer Ever</h2>
+                  <h3> Bruno Pernadas</h3>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card text-center line-height-sm">
+          <h3>About this page</h3>
+          <p>Page done for the Le Wagon fullstack!</p>
         </div>
       </div>
-      <div class="card text-center">
-        <ul class="list-inline">
-            <li>
-              <a href="https://www.facebook.com/ldelcastillod" target="_blank">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                <br> Facebook
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/ldeld" target="_blank">
-                <i class="fa fa-github" aria-hidden="true"></i>
-                <br> Github
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com/ldelcd" target="_blank">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <br> Instagram
-              </a>
-            </li>
-          </ul>
-      </div>
-      <div class="card text-center" id="album-list">
-        <table>
-          <thead>
-            <tr>
-              <h2 class="card-title">Favorite albums</h1>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/In_Rainbows_Official_Cover.jpg" class="img-cover" width="250px">
-              </td>
-              <td>
-                <h2> In Rainbows</h2>
-                <h3> Radiohead</h3>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="http://lounge.obviousmag.org/musinquieta/Transa.jpg" class="img-cover" width="250px">
-              </td>
-              <td>
-                <h2> Transa</h2>
-                <h3> Caetano Veloso</h3>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="https://images-na.ssl-images-amazon.com/images/I/51Rkk2zTsBL._SS500.jpg" class="img-cover" width="250px">
-              </td>
-              <td>
-                <h2> Worst Summer Ever</h2>
-                <h3> Bruno Pernadas</h3>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="card text-center line-height-sm">
-        <h3>About this page</h3>
-        <p>Page done for the Le Wagon fullstack!</p>
-      </div>
-    </div>
+     </div>
   </body>
 </html>
