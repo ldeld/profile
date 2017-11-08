@@ -106,13 +106,20 @@ a {
   background-color: #3f3f3f;
 }
 
-#sidebar a {
-  color: #F0EAD6;
-  padding: 30px 0px;
+#sidebar .fa {
+  margin: 30px;
+}
+
+#sidebar ul {
+  padding-left: 0px;
 }
 
 #sidebar a:hover {
   color: white;
+}
+
+#sidebar a {
+  color: #F0EAD6;
 }
 
 #page-content {
